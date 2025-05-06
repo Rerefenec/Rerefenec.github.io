@@ -1,5 +1,10 @@
+
+
+
 h1{
-    font-family:  'Gill Sans MT';
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:rgb(100, 40, 155) }
 h2{
     font-family: Cambria;
@@ -7,15 +12,16 @@ h2{
 }
 h3 {
     font-weight: 700;
-    color: rgb(120, 35, 35);
-}
-body {
-    /*background-color: rgb(222, 163, 163); /* Le fond de la page sera noir */
-    background: linear-gradient(180deg, #8360c3, #2ebf91);
+    color: rgb(90, 35, 35);
 }
 
+
 body {
-    font-family: sans-serif;
+    transition: transform 0.3s ease; /* Pour un zoom doux */
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+    font-family: Cambria;
+    color: rgb(7, 7, 50);
+    font-size: 20px;
     margin: 0; /* Vous ne connaissez pas encore cette propriété mais elle permet de s'assurer que nos éléments prennent bien toute la largeur de la page */
 }
 
@@ -24,7 +30,21 @@ body {
     background-image: url('nuage.jpg');
 }
 
-h1 {
-    color: white;
-    text-align: center;
-}
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .button{
+    background-color: beige;
+    width: 60px;
+    height: 40px;
+  }
+
