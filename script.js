@@ -15,7 +15,7 @@ console.log("popo")
 
 let kata =document.querySelector('#kata')
 let monSite =document.querySelector('#mon-site')
-
+let quizz =document.querySelector('.quizz')
 kata.addEventListener("click",function(){
     window.location.href = "https://katastationmeteo.vercel.app/"
     console.log('rere')}
@@ -23,5 +23,10 @@ kata.addEventListener("click",function(){
 
 monSite.addEventListener("click",function(){
     window.location.href = "http://renaud.delorme.free.fr/"
-    console.log('rere')}
+    }
+)
+
+kata.addEventListener("click",function(){
+    window.location.href = "https://le-quizz.vercel.app/"
+    }
 )

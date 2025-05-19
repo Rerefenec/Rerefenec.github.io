@@ -3,9 +3,14 @@
 
 h1{
     font-family: "Amatic SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:rgb(100, 40, 155) }
+    justify-content: center;
+    font-size: 80px;
+    margin: 0%;
+    margin-bottom: -5%;
+    color: rgb(247, 243, 137);
+     }
+    
+
 h2{
     font-family: Cambria;
     color: rgb(7, 7, 50);
@@ -26,8 +31,12 @@ body {
 }
 
 .banniere {
-    padding: 100px; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter de l'espace dans notre élément*/
+    padding: 120px; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter de l'espace dans notre élément*/
     background-image: url('nuage.jpg');
+    font-family: "Amatic SC", sans-serif;
+    justify-content: center;
+    font-size: 80px;
+    text-align: end;
 }
 
 .amatic-sc-regular {
@@ -48,3 +57,22 @@ body {
     height: 40px;
   }
 
+  p {
+    font-size: small;
+  }
+
+.kate1 {
+  
+   padding: 10px;
+    background-image: url('essai taille copie 4.jpg');
+    font-family: "Amatic SC", sans-serif;
+   font-size: 80px;
+   margin: 0;
+   justify-content: center;
+    color: rgb(248, 241, 103);
+}
+
+.kate2 {
+  padding: 60px;
+    background-image: url('essai taille copie.jpg');
+}
